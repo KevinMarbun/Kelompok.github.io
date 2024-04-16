@@ -8,6 +8,7 @@
   --black: #222222;
   --bg: rgba(237, 28, 70);
   --white: #fff;
+  --green: green;
 }
 
 * {
@@ -447,8 +448,9 @@ nav #close {
 .footer {
   width: 100%;
   height: auto;
-  background: url(img/medicom.jpeg);
+  background: url(img/tt.jpeg);
   background-size: cover;
+  filter: brightness(80%);
   background-repeat: no-repeat;
   padding-top: 20rem;
 }
@@ -465,7 +467,7 @@ nav #close {
 }
 
 .footer .container .footer-box h3 {
-  color: var(--white);
+  color: var(--bg);
   font-size: 1.8rem;
   letter-spacing: 0.1rem;
 }
