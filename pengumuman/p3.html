@@ -11,37 +11,75 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
   </head>
 
-  <body>
+  <body id="background-vanta">
     <!-- Header Section -->
     <div class="header" id="home">
       <nav id="navbar">
-        <a href="#home" class="logo">Normalisasi<span>.</span></a>
-        <div class="links" id="nav">
-          <a href="../index.html">Home</a>
-          <a href="../index.html #about">Pengertian</a>
-          <a href="../index.html #berita">Tujuan Normalisasi</a>
-          <a href="../index.html #pengumuman">Bentuk Normalisasi</a>
-          <a href=" ../index.html #contact"><i class="fa fa-phone">contact</i></a>
-        </div>
-        <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
-        <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+          <a href="../index.html #home" class="logo">Normalisasi<span>.</span></a>
+          <div class="links" id="nav">
+              <a href="../index.html">Home</a>
+              <a href="../index.html #about">Pengertian</a>
+              <a href="../index.html #berita">Tujuan Normalisasi</a>
+              <a href="../index.html #pengumuman">Bentuk Normalisasi</a>
+              <a href=" ../index.html #contact">contact</a>
+          </div>
+          <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+          <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
       </nav>
-    </div>
-    <!-- Header Section End -->
+      <div class="content">
+        <h2>Tugas Teknik Komputer TK 23 A<br />SBD (Sistem Basis Data)</h2>
+        <h3>Mengisi Data Pada Table dan Menambahkan field <br>serta mengisi data pada field yang baru ditambahkan</h3>
+      </div>
+    
 
-    <!-- About Section -->
-    <h1 align="center" style="margin-top: 40px; font-size: 4em">Bentuk Normal Kedua (2NF)</h1>
-    <section class="about" id="about">
-      <div class="container"></div>
-      <div class="about-content">
-        <img src="../img/2nf.png" alt="" width="800" />
-        <p style="margin-top: 10px; font-size: 1.6em">
-          Normalisasi kedua (2NF) , suatu relasi memenuhi relasi kedua jika relasi tersebut memenuhi normal pertama dan setiap atribut yang bukan kunci (non key) bergantung secara fungsional terhadap kunci utama (Primary key) atau jika ada
-          4 bagian tabel maka hanya di gunakan/dipakai 3 tabel saja.Bentuk normal kedua ini mempunyai syarat yaitu bentuk data yang telah memenuhi kriteria bentuk normal pertama. <br /><br /><br /><b>2NF</b> adalah bentuk kedua yang
-          melakukan dekomposisi tabel untuk mencari kunci primer dari setiap tabel. Sebuah model data dikatakan memenuhi bentuk normal kedua apabila ia memenuhi bentuk normal pertama dan setiap atribut non-identifier sebuah entitas
-          bergantung sepenuhnya hanya pada semua identifier entitas tersebut.
-        </p>
+    <!-- Header Section End -->
+    <!-- Blog Section -->
+    <section class="blog" id="berita">
+      <div class="container">
+        
+        <div class="blog-content">
+          <p style="color: white; font-size: 1.5em">Perintah Cara Mengisi Data Pada Table : </p><br><br><br>
+          <img src="../img/p4.png" alt="" width="100%" /><br><br><br><br><br><br><br><br><br><br>
+          <p style="color: white; font-size: 1.5em">Perintah Cara Menambahkan field baru Pada Table : </p><br><br><br>
+          <img src="../img/p6.png" alt="" width="100%" /><br><br><br><br><br><br><br><br><br><br>
+          <p style="color: white; font-size: 1.5em">Perintah Cara Mengisi Data Pada field baru  : </p><br><br><br>
+          <img src="../img/p6!.png" alt="" width="100%" /><br><br><br>
+        </div>
       </div>
     </section>
+    <!-- Blog Section End-->
+<br><br><br><br><br><br><br><br><br>
+    <!-- Footer Section -->
+    <section class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <h3>about us</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non laborum nisi id amet sit? Cum, rem? Nam, in at. Officiis?</p>
+          <p>
+            Copyrights &copy; Kevin Juniardy Marbun <a href="https://instagram.com/xc.pxly_?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+          </p>
+        </div>
+        <div class="footer-box">
+          <h3>Newsletter</h3>
+          <p>Stay updaet with our latests</p>
+          <form>
+            <input type="email" name="email" placeholder="admin@gmail.com" />
+            <button type="submit"><i class="fa-solid fa-right-long"></i></button>
+          </form>
+        </div>
+        <div class="footer-box">
+          <h3>Contact</h3>
+          <p>Connect With Us On:</p>
+          <div id="contact">
+            <a href="#"><i class="fa fa-phone"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section End -->
+
+    <script src="../script.js"></script>
   </body>
 </html>

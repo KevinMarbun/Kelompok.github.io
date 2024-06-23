@@ -3,12 +3,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 
 :root {
-  --font-heading: crimson;
+  --font-heading: rgb(0, 4, 253);
   --para-font: #777777;
-  --black: #222222;
+  --black: #ffffff;
   --bg: rgba(237, 28, 70);
   --white: #fff;
-  --green: green;
+  --green: black;
 }
 
 * {
@@ -22,12 +22,17 @@
   text-transform: capitalize;
   transition: 0.2s linear;
 }
+#background-vanta {
+  background-color: black;
+}
 
 html {
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 9rem;
+}
+span {
 }
 
 .header {
@@ -110,7 +115,10 @@ nav #close {
 
 .header .content h1 {
   font-size: 5rem;
+  color: var(--black);
   letter-spacing: 2px;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .btn {
@@ -137,22 +145,23 @@ nav #close {
 }
 
 .about .container {
+  margin-top: -100px;
   display: flex;
   justify-content: space-between;
 }
 
 .about .container .image {
   flex-basis: 50%;
-  background: url(img/Normalisasi.jpg);
+  background: url(img/logo.png);
   background-size: cover;
   background-repeat: repeat;
-  background-position: -0px -10px;
-  padding: 16rem 0;
+  background-position: -0px -100px;
+  padding: 20rem 0;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 0px 10px 0px rgb(195, 193, 193);
+  box-shadow: 0px 0px 10px 0px rgb(244, 3, 3);
 }
 
 .about .container .about-content {
@@ -183,6 +192,7 @@ nav #close {
 .heading {
   font-size: 5rem;
   text-align: center;
+  color: var(--black);
 }
 
 .heading span {
@@ -193,6 +203,7 @@ nav #close {
   text-align: center;
   padding: 1.3rem 0;
   font-size: 1.6rem;
+  color: var(--black);
   font-weight: 400;
 }
 
@@ -238,10 +249,15 @@ nav #close {
   font-size: 1.6rem;
   padding: 1.3rem 0;
   letter-spacing: 0.1rem;
+  color: var(--black);
 }
 
 .blog .container .post .blog-content h3 span {
-  color: var(--bg);
+  color: var(--font-heading);
+}
+
+.service-box h3 span {
+  color: var(--font-heading);
 }
 
 .blog .container .post .blog-content h1 {
@@ -252,7 +268,7 @@ nav #close {
 
 .blog .container .post .blog-content p {
   font-size: 1.4rem;
-  color: var(--para-font);
+  color: var(--black);
 }
 .blog .container .post .blog-content p i {
   padding: 2px;
@@ -260,7 +276,7 @@ nav #close {
   color: red;
 }
 .blog .container .post .blog-content p a {
-  color: black;
+  color: var(--font-heading);
 }
 
 .blog .container .post:hover img {
@@ -289,7 +305,7 @@ nav #close {
 }
 
 .service .container .service-box {
-  background: var(--white);
+  background: var(--green);
   height: 100%;
   cursor: pointer;
   box-shadow: 3px 3px 10px rgba(179, 179, 179, 0.5);
@@ -307,8 +323,10 @@ nav #close {
 }
 
 .service .container .service-box .service-content h3 {
-  font-size: 2.5rem;
+  font-size: 1.6rem;
   padding: 1.3rem 0;
+  letter-spacing: 0.1rem;
+  color: var(--black);
 }
 
 .service .container .service-box .service-content p {
@@ -553,5 +571,18 @@ nav #close {
 
   .about .container .about-content {
     text-align: center;
+  }
+  .about .container .image {
+    flex-basis: 50%;
+    background: url(img/logo.png);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: -0px -0px;
+    padding: 15rem 0rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgb(195, 193, 193);
   }
 }

@@ -10,13 +10,15 @@
     <link rel="stylesheet" href="style.css">
     <!-- Font Awesome Cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+   
+    
 </head>
 
-<body>
+<body id="background-vanta">
     <!-- Header Section -->
     <div class="header" id="home">
         <nav id="navbar">
-            <a href="#home" class="logo">Normalisasi<span>.</span></a>
+            <a href="#home" class="logo">Databases<span>.</span></a>
             <div class="links" id="nav">
                 <a href="#home">Home</a>
                 <a href="#about">Pengertian</a>
@@ -28,8 +30,8 @@
             <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
         </nav>
         <div class="content">
-            <h3>Tugas Presentasi Teknik Komputer TK 23 A<br>SBD (Sistem Basis Data)</h3><br>
-            <h1>Normalisasi Basis Data</h1>
+            <h3>Tugas Teknik Komputer TK 23 A<br>SBD (Sistem Basis Data)</h3><br>
+            <h1>Presentasi Databases</h1>
             
         </div>
     </div>
@@ -42,9 +44,9 @@
 
             </div>
             <div class="about-content">
-                <h1>Apasi itu Normalisasi?</h1>
-                <h2>Pengertian Normalisasi</h2>
-                <p>Normalisasi (normalize) merupakan salah satu cara pendekatan atau teknik yang digunakan dalam membangun desain logic database relation dengan menerapkan sejumlah aturan dan kriteria standard.</p>
+                <h1>Apasi itu Database?</h1>
+                <h2>Pengertian Database</h2>
+                <p>Database atau basis data adalah kumpulan data yang terorganisir dan terstruktur sedemikian rupa sehingga dapat dengan mudah diakses, dikelola, dan diperbarui.</p>
                
 
             </div>
@@ -54,34 +56,35 @@
 
     <!-- Blog Section -->
     <section class="blog" id="berita">
-        <h1 class="heading">Tujuan <span>Normalisasi</span></h1>
-        <p class="heading-description">Tujuan & Tahapan Normalisasi</p>
+        <h1 class="heading">Fungsi <span>Database</span></h1>
+        <p class="heading-description">Fungsi & Keuntungan Database</p>
         <div class="container">
         <div class="post">
                 <div class="blog-img">
-                    <img src="img/tujuan.png" alt="">
-                    <span>16<br> april </span>
+                    <img src="img/jeremi.jpg" alt="">
+                    <span>26<br> Juni </span>
                 </div>
                 <div class="blog-content">
-                    <h3>By admin |<span> Kelompok 3.</span></h3>
-                    <h1>Tujuan Normalisasi...</h1>
-                    <p><i class="fas fa-walking"></i>. Mengurangi Redundansi<br><i class="fas fa-walking"></i>. Mengurangi Ketergantungan Data <br><i class="fas fa-walking"></i>. Meningkatkan Konsistensi dan Integritas Data <br><i class="fas fa-walking"></i>. Memudahkan Perubahan Struktur
-                    <br>
+                    <h3>By Jeremia |<span> Kelompok SKSA.</span></h3>
+                    <h1>Fungsi Database...</h1>
+                    <p><i class="fas fa-walking"></i>. Penyimpanan Data<br><i class="fas fa-walking"></i>.  Pengelolaan Data<br><i class="fas fa-walking"></i>. Akses Data <br><i class="fas fa-walking"></i>. Analisis Data
+                    <br><br><br>
                     <p style="font-size:1.6em"><a href="berita/berita1.html">Selengkapnya</a> <i class="fa fa-right-long"></p></i>
                     </p> 
                 </div>
             </div>
             <div class="post">
                 <div class="blog-img">
-                <img src="img/Tahapan.png" alt="">
-                    <span>16<br> april </span>
+                <img src="img/bram.jpg" alt="">
+                    <span>26<br> Juni </span>
                 </div>
                 <div class="blog-content">
-                    <h3>By admin |<span> Kelompok 3.</span></h3>
-                    <h1>Tahapan Normalisasi...</h1>
-                    <p><i class="fas fa-walking"></i>. Tahap Normalisasi dimulai dari tahap paling ringan (1NF) hingga paling ketat (5NF). <br>
-                    <i class="fas fa-walking"></i>. Biasanya hanya sampai pada tingkat 3NF atau 4NF, karena sudah cukup memadai untuk menghasilkan tabel-tabel yang berkualitas baik. <br>
-                    <i class="fas fa-walking"></i>. Urutan: 1NF, 2NF, 3NF, 4NF. <br>
+                    <h3>By Bram |<span> Kelompok SKSA.</span></h3>
+                    <h1>Keuntungan Database...</h1>
+                    <p><i class="fas fa-walking"></i>. Keamanan<br>
+                    <i class="fas fa-walking"></i>. Integritas Data<br>
+                    <i class="fas fa-walking"></i>. Skalabilitas<br>
+                    <i class="fas fa-walking"></i>. Efisiensi <br>
 <br>
                     <br>
                     <p style="font-size:1.6em"><a href="berita/berita2.html">Selengkapnya</a> <i class="fa fa-right-long"></i></p>
@@ -93,40 +96,43 @@
     <!-- Blog Section End-->
     <!-- Service Section -->
     <section class="service" id="pengumuman">
-        <h1 class="heading">Bentuk-bentuk <span>Normalisasi</span></h1>
+     
+        <h1 class="heading">Merancang <span>Databases</span></h1>
         <p class="heading-description"></p>
         <div class="container">
             <div class="service-box">
                 <div class="service-img">
-                    <img src="img/unf.png" alt="">
+                    <img src="img/jihan.jpg" alt="">
                 </div>
                 <div class="service-content">
-                    <h3>Bentuk Tidak Normal</h3>
-                    <p>Bentuk tidak normal (unnormalized) merupakan kumpulan data yang direkam tidak ada keharusan dengan mengikuti suatu format tertentu atau sering di sebut ada beberapa kolom yang kosong di dalam tabel bentuk tidak normal. 
-                
+                    <h3>By Jihan |<span> Kelompok SKSA.</span></h3>
+                    <h3>Menjalankan MYSQL</h3>
+                    <p>Seperti Yang kita ketahui sebelum membuat database kita harus Menjalankan Mysql Server terlebih dahulu di komputer kita. karena itulah langkah awal untuk kita dapat berinteraksi dengan MySQL server menggunakan perintah SQL.
+
                     <p style="font-size:1.6em"><a href="pengumuman/p1.html">Selengkapnya</a> <i class="fa fa-right-long"></i></p>
                     </p>
                 </div>
             </div>
             <div class="service-box">
                 <div class="service-img">
-                    <img src="img/1nf.png" alt="">
+                    <img src="img/alex.jpg" alt="">
                 </div>
                 <div class="service-content">
-                    <h3>Bentuk Normal Pertama 1NF</h3>
-                    <p>Normal pertama (1NF) adalah suatu relasi atau tabel memenuhi normal pertama jika setiap atribut dari relasi tersebut hanya memiliki nilai tunggal dalam satu baris (record) dan  semua kolom yang di dalam tabel harus berisi tunggal atau tidak ada yang  duplikat.
-                    
+                    <h3>By Alex |<span> Kelompok SKSA.</span></h3>
+                    <h3>Membuat Database dan Table</h3>
+                    <p>Kita dapat melihat cara membuat Database dan Table Pada halaman Selengkapnya...
                     <p style="font-size:1.6em"><a href="pengumuman/p2.html">Selengkapnya</a> <i class="fa fa-right-long"></i></p>
                     </p>
                 </div>
             </div>
             <div class="service-box">
                 <div class="service-img">
-                    <img src="img/2nf.png" alt="">
+                    <img src="img/ajeriko.jpg" alt="">
                 </div>
                 <div class="service-content">
-                    <h3>Bentuk Normal Kedua 2NF</h3>
-                    <p>Normalisasi kedua (2NF) , suatu relasi memenuhi relasi kedua jika relasi tersebut memenuhi normal pertama dan setiap atribut yang bukan kunci (non key) bergantung secara fungsional terhadap kunci utama (Primary key) atau jika ada 4 bagian tabel maka hanya di gunakan/dipakai 3 tabel saja. 
+                    <h3>By Ajeriko |<span> Kelompok SKSA.</span></h3>
+                    <h3>Mengisi Data dan menambah field </h3>
+                    <p>Kita dapat melihat cara mengisi data dan menambah field beserta mengisi data pada field yang baru di tambahkan pada table. kita dapat melihat libih rinci ke halaman Selengkapnya...
                  
                     <p style="font-size:1.6em"><a href="pengumuman/p3.html">Selengkapnya</a> <i class="fa fa-right-long"></i></p>
                     </p>
@@ -134,18 +140,19 @@
             </div>
             <div class="service-box">
                 <div class="service-img">
-                    <img src="img/3nf.png" alt="">
+                    <img src="img/kevin.jpeg" alt="">
                 </div>
                 <div class="service-content">
-                    <h3>Bentuk Normal Ketiga 3NF</h3>
-                    <p>Normalisasi ketiga (3 NF), suatu relasi memenuhi normal ketiga jika dan hanya jika relasi tersebut memenuhi normal kedua dan setiap atribut bukan kunci, tidak mempunyai transitive functional dependency kepada kunci utama. 
+                    <h3>Sum dan Menghapus table 
+                    </h3>
+                    <p>Cara Menggunakan Perintah( sum , avg , max , min , count ) pada Table database dan menghapus table pada database
                     <p style="font-size:1.6em"><a href="pengumuman/p4.html">Selengkapnya</a> <i class="fa fa-right-long"></i></p>
                     </p>
                 </div>
             </div>
             <div class="service-box">
                 <div class="service-img">
-                    <img src="img/4nf.png" alt="">
+                    <img src="img/ajeriko.jpg" alt="">
                 </div>
                 <div class="service-content">
                     <h3>Bentuk Normal Keempat 4NF</h3>
@@ -192,8 +199,28 @@
         </div>
     </section>
     <!-- Footer Section End -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script type="text/javascript">
+  VANTA.NET({
+  el: "#background-vata",
+  mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0xa00ff,
+  backgroundColor: 0x0,
+  points: 14.00,
+  maxDistance: 23.00
+})
+    </script>
 
-    <script src="script.js"></script>
+    <script src="script.js">
+
+    </script>
 </body>
 
 </html>
