@@ -11,55 +11,76 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
   </head>
 
-  <body>
+  <body id="background-vanta">
     <!-- Header Section -->
     <div class="header" id="home">
       <nav id="navbar">
-        <a href="#home" class="logo">Normalisasi<span>.</span></a>
-        <div class="links" id="nav">
-          <a href="../index.html">Home</a>
-          <a href="../index.html #about">Pengertian</a>
-          <a href="../index.html #berita">Tujuan Normalisasi</a>
-          <a href="../index.html #pengumuman">Bentuk Normalisasi</a>
-
-          <a href=" ../index.html #contact"><i class="fa fa-phone">contact</i></a>
-        </div>
-        <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
-        <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
+          <a href="../index.html #home" class="logo">Databases<span>.</span></a>
+          <div class="links" id="nav">
+              <a href="../index.html">Home</a>
+              <a href="../index.html #about">Pengertian</a>
+              <a href="../index.html #berita">Tujuan Normalisasi</a>
+              <a href="../index.html #pengumuman">Bentuk Normalisasi</a>
+              <a href=" ../index.html #contact">contact</a>
+          </div>
+          <div class="fas fa-bars" id="menu-btn" onclick="openmenu()"></div>
+          <div class="fa-solid fa-xmark" id="close" onclick="closemenu()"></div>
       </nav>
-    </div>
-    <!-- Header Section End -->
+      <div class="content">
+        <h2>Tugas Teknik Komputer TK 23 A<br />SBD (Sistem Basis Data)</h2>
+        <h3>Keuntungan  Database.</h3>
+      </div>
+    
 
-    <!-- About Section -->
-    <h1 align="center" style="margin-top: 40px; font-size: 5em">Tahapan Normalisasi.</h1>
-    <section class="about" id="about">
-      <div class="container"></div>
-      <div class="about-content">
-        <p style="margin-top: 10px; font-size: 1.6em">
-          <i class="fas fa-walking"></i>. Normalisasi Tingkat Pertama (1NF): <br />
-          - Memastikan setiap sel dalam tabel hanya berisi nilai atomik (tidak dapat dibagi lagi). <br />
-          - Menghilangkan kelompok nilai berulang dan membuat setiap baris unik dengan menambahkan kunci utama. <br /><br />
-          <i class="fas fa-walking"></i>. Normalisasi Tingkat Kedua (2NF): <br />
-          - Mencapai 1NF. <br />
-          - Memastikan bahwa setiap kolom non-kunci tergantung sepenuhnya pada kunci utama secara keseluruhan, bukan pada sebagian dari kunci. <br />
-          - Memisahkan data ke dalam tabel tambahan jika diperlukan untuk memenuhi syarat ini.
+    <!-- Header Section End -->
+    <!-- Blog Section -->
+    <section class="blog" id="berita">
+      <div class="container">
+        
+        <p style="margin-top: 10px; font-size: 1.6em;color: white;">
+          <i class="fas fa-walking"></i>. Keamanan: Data dapat dilindungi dengan kontrol akses dan enkripsi. <br /><br /><br />
+          <i class="fas fa-walking"></i>. Integritas Data: Menjamin konsistensi dan akurasi data melalui berbagai mekanisme seperti kunci utama (primary key) dan kunci asing (foreign key). <br />
           <br /><br />
-          <i class="fas fa-walking"></i>. Normalisasi Tingkat Ketiga (3NF): <br />
-          - Mencapai 2NF. <br />
-          - Memastikan bahwa setiap kolom non-kunci tidak bergantung pada kolom non-kunci lainnya (tidak ada ketergantungan transitif). <br />
-          - Memisahkan data ke dalam tabel tambahan jika diperlukan untuk memenuhi syarat ini.
+          <i class="fas fa-walking"></i>. Skalabilitas: Dapat menangani jumlah data yang besar dan banyak pengguna secara bersamaan. <br />
           <br /><br />
-          <i class="fas fa-walking"></i>. Normalisasi Tingkat Keempat (4NF): <br />
-          - Mencapai 3NF. <br />
-          - Memastikan bahwa tidak ada ketergantungan multivariabel yang tidak relevan. <br />
-          - Mengisolasi data yang berkaitan dengan ketergantungan multivariabel dalam tabel yang terpisah.
-          <br /><br />
-          <i class="fas fa-walking"></i>. Normalisasi Tingkat Kelima (5NF): <br />
-          - Mencapai 4NF. <br />
-          - Menghilangkan ketergantungan gabungan. <br />
-          - Menguraikan data ke dalam tabel yang lebih kecil untuk menghindari ketergantungan gabungan.
+          <i class="fas fa-walking"></i>. Efisiensi: Memungkinkan pemrosesan data secara cepat dan efisien melalui query yang dioptimalkan. <br />
+          <br /><br /><br><br>
         </p>
       </div>
     </section>
+    <!-- Blog Section End-->
+<br><br><br><br><br><br><br><br><br>
+    <!-- Footer Section -->
+    <section class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <h3>about us</h3>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non laborum nisi id amet sit? Cum, rem? Nam, in at. Officiis?</p>
+          <p>
+            Copyrights &copy; Kevin Juniardy Marbun <a href="https://instagram.com/xc.pxly_?igshid=ZDdkNTZiNTM="><i class="fa-brands fa-instagram"></i></a>
+          </p>
+        </div>
+        <div class="footer-box">
+          <h3>Newsletter</h3>
+          <p>Stay updaet with our latests</p>
+          <form>
+            <input type="email" name="email" placeholder="admin@gmail.com" />
+            <button type="submit"><i class="fa-solid fa-right-long"></i></button>
+          </form>
+        </div>
+        <div class="footer-box">
+          <h3>Contact</h3>
+          <p>Connect With Us On:</p>
+          <div id="contact">
+            <a href="#"><i class="fa fa-phone"></i></a>
+            <a href="#"><i class="fa fa-envelope"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section End -->
+
+    <script src="../script.js"></script>
   </body>
 </html>
