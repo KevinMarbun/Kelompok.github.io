@@ -136,6 +136,49 @@
                  
                     <p style="font-size:1.6em"><a href="pengumuman/p3.html">Selengkapnya</a> <i class="fa fa-right-long"></i></p>
                     </p>
+                    <p>
+                        package coba2;
+                        <br>
+import java.util.Scanner;
+<br>
+public class coba2 {
+    <br>
+
+	public static void main(String[] args) {
+        <br>
+		
+String[][]meja=new String[2][3];
+<br>
+Scanner scan  = new Scanner(System.in);
+<br>
+
+//mengisi setiap meja
+<br>
+for(int bar = 0; bar < meja.length;bar++) {
+    <br>
+for(int kol = 0; kol < meja[bar].length; kol++) {
+    <br>
+	System.out.format("Siapa yang akan duduk di meja(%d,%d):",bar,kol);
+    <br>
+	meja[bar][kol]=scan.nextLine();  <br>
+	
+}  <br>
+
+	}  <br>
+
+System.out.println("--------------------------------");  <br>
+for(int bar = 0; bar < meja.length; bar++) {  <br>
+	for(int kol = 0; kol < meja[bar].length; kol++) {  <br>
+		System.out.format("| %s | \t",meja[bar][kol]);  <br>
+	}  <br>
+	System.out.println(" ");  <br>
+}  <br>
+System.out.println("--------------------------------");  <br>
+	}  <br>
+}  <br>
+
+
+                    </p>  <br>
                 </div>
             </div>
             <div class="service-box">
@@ -148,6 +191,39 @@
                     <p>Cara Menggunakan Perintah( sum , avg , max , min , count ) pada Table database dan menghapus table pada database
                     <p style="font-size:1.6em"><a href="pengumuman/p4.html">Selengkapnya</a> <i class="fa fa-right-long"></i></p>
                     </p>
+                    <p><b>package coba;  <br>
+
+                        public class coba {    <br>
+                        
+                            public static void main(String[] args) {  <br>
+                                // TODO Auto-generated method stub  <br>
+                                 System.out.println("Kevin");  <br>
+                                 String teks = ("AMIK MEDICOM SUMATERA UTARA");  <br>
+                                 System.out.println("Teks:"+teks);  <br>
+                                 System.out.println("substring(4) = " + teks.substring(4) );  <br>
+                                 System.out.println("substring(0,4) = " + teks.substring(0,4) );  <br>
+                                 System.out.println("CharAt(4) = " + teks.charAt(3));  <br>
+                                 System.out.println("Length(4) = " + teks.length() );  <br>
+                                 System.out.println("Concat(4) = " + teks.concat(",indonesia") );  <br>
+                                 System.out.println("Replace(A jadi a) = " + teks.replace("A","a") );  <br>
+                                 System.out.println("lowercase(4) = " + teks.toLowerCase() );  <br>
+                                 System.out.println("UpperCase(4) = " + teks.toUpperCase() );  <br>
+                                 System.out.println("trim(4) = " + teks.trim() );  <br>
+                                
+                                 int[] bilangan= {10,20,30,40,50,60,70,80,90,100};  <br>
+                                 
+                                 for(int i=0; i<10; i++) {
+                                     System.out.println("data element ke : "+i+"="+bilangan[i]);
+                                 }  
+                                 <br>
+                                 System.out.println("jumlah elemen array adalah"+bilangan.length);  <br>
+                                 
+                                 
+                                 
+                            }  <br>
+                        
+                        }  <br>
+                        </b></p>
                 </div>
             </div>
            
@@ -193,38 +269,7 @@
 
     </script>
 
-    <--!package coba;
-
-    public class coba {
     
-        public static void main(String[] args) {
-            // TODO Auto-generated method stub
-             System.out.println("Kevin");
-             String teks = ("AMIK MEDICOM SUMATERA UTARA");
-             System.out.println("Teks:"+teks);
-             System.out.println("substring(4) = " + teks.substring(4) );
-             System.out.println("substring(0,4) = " + teks.substring(0,4) );
-             System.out.println("CharAt(4) = " + teks.charAt(3));
-             System.out.println("Length(4) = " + teks.length() );
-             System.out.println("Concat(4) = " + teks.concat(",indonesia") );
-             System.out.println("Replace(A jadi a) = " + teks.replace("A","a") );
-             System.out.println("lowercase(4) = " + teks.toLowerCase() );
-             System.out.println("UpperCase(4) = " + teks.toUpperCase() );
-             System.out.println("trim(4) = " + teks.trim() );
-            
-             int[] bilangan= {10,20,30,40,50,60,70,80,90,100};
-             
-             for(int i=0; i<10; i++) {
-                 System.out.println("data element ke : "+i+"="+bilangan[i]);
-             }
-             System.out.println("jumlah elemen array adalah"+bilangan.length);
-             
-             
-             
-        }
-    
-    }
-    -->
 </body>
 
 </html>
